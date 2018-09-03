@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+
+    <style>
+
+        .size {
+            height: 100px;
+            width: 100px;
+
+            text-align: center;
+            line-height: 100px;
+            color: white;
+            font-size: 30px;
+            font-family: 微软雅黑;
+            font-weight: 100;
+        }
+
+        #d1 {
+            background-color: indianred;
+        }
+        #d2 {
+            background-color: lightseagreen;
+
+            position: relative;
+            top :50px;
+            left: 50px;
+
+            z-index: -1;
+        }
+        #d3 {
+            background-color: lightslategray;
+
+            z-index: 1;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div id="d1" class="size">d1</div>
+    <div id="d2" class="size">d2</div>
+    <div id="d3" class="size">d3</div>
+
+</body>
+</html>
