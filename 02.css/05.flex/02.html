@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+
+    <style>
+
+        #container {
+            height: 450px;
+            width: 50%;
+
+            display: flex;
+
+            flex-flow: row nowrap;
+
+            /*justify-content: center;*/
+
+            /*justify-content: space-around;*/
+            justify-content: space-between;
+        }
+
+        .border {
+            border: 1px solid crimson;
+        }
+
+        .size {
+            height: 100px;
+            width: 100px;
+        }
+
+        #d1 {
+
+            background-color: crimson;
+
+        }
+        #d2 {
+            background-color: lightseagreen;
+            flex : 2;
+        }
+        #d3 {
+            background-color: blueviolet;
+            flex : 1;
+        }
+
+    </style>
+
+</head>
+<body>
+
+
+    <div id="container" class="border">
+
+        <div id="d1" class="size"></div>
+        <div id="d2" class="size"></div>
+        <div id="d3" class="size"></div>
+
+    </div>
+
+</body>
+</html>
