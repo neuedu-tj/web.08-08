@@ -1,0 +1,134 @@
+#signal {
+    background-color: grey;
+    height: 36px;
+
+    display: flex;
+
+    background-color: #212121;
+
+
+}
+
+
+.signal-font {
+    font-size: 12px;
+    color: white;
+}
+
+
+/* 信号层  三部分 : start */
+#signal-left {
+    height: 36px;
+    flex: 1;
+
+    display: flex;
+    align-items: center;
+}
+
+#signal-center {
+    height: 36px;
+    width: 50px;
+}
+
+#signal-right {
+    height: 36px;
+    flex: 1;
+
+
+}
+/* 信号层  三部分 : end */
+
+
+/* 信号层left 的信号强度 部分 : start   */
+#signal-area {
+    display: flex;
+
+    align-items: flex-end;
+
+    height: 16px;
+    width: 30px;
+
+    margin-left: 2px;
+}
+
+#signal-area div {
+
+    width: 4px;
+    margin-left: 3px;
+    border-radius: 1px;
+}
+
+#signal-area div:nth-child(1) {
+    height: 6px;
+}
+#signal-area div:nth-child(2) {
+    height: 9px;
+}
+#signal-area div:nth-child(3) {
+    height: 13px;
+}
+#signal-area div:nth-child(4) {
+    height: 16px;
+}
+
+.signal-ok {
+    background-color: white;
+}
+.signal-lose {
+    background-color: gray;
+}
+
+/* 信号层left 的信号强度 部分 : end  */
+
+/*信号层left 的 运营商 部分 : start */
+#operation {
+    margin: 0px 3px 0px 3px;
+
+}
+
+#xg {
+
+    margin: 0px 3px 0px 3px;
+}
+/*信号层left 的 运营商 部分 : end */
+
+
+/* 电池部分 : start   */
+
+
+#battery-area {
+    height: 18px;
+    width: 60px;
+
+    margin-right: 4px;
+}
+
+#battery-body {
+    height: 14px;
+    width: 40px;
+    border: ghostwhite 1px solid;
+
+    display: flex;
+    align-items: center;
+
+    border-radius: 1px;
+}
+
+#battery-head {
+    height: 6px;
+    width: 2px;
+    background-color: whitesmoke;
+    border-radius: 0px 1px 1px 0px;
+}
+
+#battery-core {
+
+    height: 12px;
+    width: 30px;
+    background-color: greenyellow;
+    margin-left: 1px;
+
+}
+
+
+/* 电池部分 : end   */
