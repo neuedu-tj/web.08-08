@@ -2,4 +2,13 @@
 #menus {
     background-color: greenyellow;
     height: 60px;
+
 }
+
+#menus div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
